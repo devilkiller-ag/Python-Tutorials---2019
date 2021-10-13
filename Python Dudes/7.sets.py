@@ -1,0 +1,13 @@
+sets = set()
+print(type(sets))
+'''Making sets from list'''
+sets_from_list = set([1, 2, 3, 4])
+print(sets_from_list)
+sets.add(1)
+sets.add(2)
+sets.add(1)
+sets_from_list.remove(3)
+s1 = sets.union({2, 1, 3, 5, 4})
+s2 = sets.intersection({1, 65, 767, 2, 7})
+print(sets, s1, s2)
+print((s1.isdisjoint(s2)))

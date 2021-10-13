@@ -1,0 +1,13 @@
+class swap
+{
+    void swapped()
+    {
+        int a = 4, b = 6, temp;
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println("How swapping is done in java");
+        System.out.println(a, b);
+    }
+}
+
